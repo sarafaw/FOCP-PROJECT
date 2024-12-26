@@ -149,6 +149,8 @@ AI Integration: Add AI-driven question difficulty adjustments based on player pe
 
 Technical Architecture
 
+![PROJECT-ARCHITECTURE](https://github.com/sarafaw/FOCP-PROJECT/blob/main/project-architecture-focp.jpg?raw=true)
+
 
 
 
