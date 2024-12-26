@@ -151,6 +151,79 @@ Technical Architecture
 
 ![PROJECT-ARCHITECTURE](https://github.com/sarafaw/FOCP-PROJECT/blob/main/project-architecture-focp.jpg?raw=true)
 
+         The Tower of Odyssey: User Guide for Running and Deployment 
+ 
+Introduction 
+The Tower of Odyssey is an engaging, console-based game that challenges players with C++ programming puzzles as they ascend through seven levels of a mysterious building. Each level presents unique gameplay mechanics, such as randomized questions, penalties for mistakes, and exciting events like burglar chases and earthquakes. 
+ 
+Prerequisites 
+Required Software: 
+Operating System: Compatible with Windows
+C++ Compiler: Recommended options include GCC, Clang, or MSVC. 
+Code Editor/IDE: Visual Studio, or Visual Studio Code are suggested for ease of use. 
+Basic Knowledge: 
+Familiarity with compiling and executing C++ programs. 
+Understanding file input/output operations for save/load functionality. 
+ 
+Installation Steps 
+Download the Game Files: 
+Obtain the source code and associated files from the official repository or shared link. 
+Ensure all required files are in a single directory. 
+Prepare the Environment: 
+Install a suitable C++ compiler and editor if not already available. 
+ 
+Building the Game 
+Open a terminal or Command Prompt. 
+Navigate to the game directory. 
+Compile the game (we used visual studio to compile the games code) 
+Ensure there are no errors during compilation. Resolve issues if any arise. 
+Running the Game 
+After successful compilation, execute the game: 
+ 
+On Windows, double-click the executable or run it through Command Prompt. (using the link for GitHub) 
+Follow the instructions displayed on the screen to start your journey. 
+ 
+Gameplay Features 
+Main Menu: 
+Options include New Game, Load Game, Help, Instructions and Exit. 
+Progress is saved automatically after completing each level. 
+Navigating the Building: 
+Floors are represented visually as stacked rectangles in the console. 
+Use WASD keys to move your character through each maze. 
+Puzzle Mechanics: 
+Solve C++ programming questions to unlock doors and find the hidden key. 
+Hitting windows result in point deductions. 
+Random Events: 
+Burglar Alert: Burglar causes loss in points. 
+Earthquakes: Debug code challenges to stabilize the building. 
+
+
+ 
+Scoring System 
+Points are awarded for correct answers and successful actions. 
+Penalties apply for mistakes or failing random events. 
+ 
+Testing the Game 
+Component Testing: 
+Verify door unlocking and window penalties by navigating the maze. 
+Test burglar and earthquake events to ensure triggers
+Confirm scoring logic updates accurately for all actions. 
+Validate save/load functionality by resuming progress from a saved state. 
+Debugging Tips: 
+Use debug statements to identify issues during development. 
+Check compiler warnings and fix potential code issues before running. 
+ 
+Deploying the Game 
+Packaging: 
+Compile the game into a standalone executable. 
+Include all necessary files (e.g., resource files, question banks) in a compressed ZIP folder. 
+Distribution: 
+Share the ZIP file via GitHub, direct links. 
+Include a README file containing a project title, group members, short project description, features, technical architecture, and detailed documentation on how to run and deploy your project.
+ 
+Conclusion 
+This guide provides all the information needed to run, test, and deploy The Tower of Odyssey. By following the steps outlined, players and developers can enjoy a seamless experience. For updates or support, refer to the official project repository.
+
 
 
 
